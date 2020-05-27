@@ -7,6 +7,7 @@ public class AddTwoBinaryNumber{
 		while(t-->0){
 			int num1=sc.nextInt();
 			int num2=sc.nextInt();
+			//Convert decimal to binary
 			long n1=decToBin(num1);
 			long n2=decToBin(num2);
 			long sum=0;
