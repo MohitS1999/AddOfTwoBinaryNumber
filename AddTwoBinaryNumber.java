@@ -15,6 +15,7 @@ public class AddTwoBinaryNumber{
 			long i=1;
 			//until the n1 and n2 both become null
 			while (n1!=0 || n2!=0){
+				//it gives us sum of two binarynumber 
 				sum+=i*((n1%10+n2%10+carry)%2);
 				//it gives us carry
 				carry=(int)(n1%10+n2%10+carry)/2;
